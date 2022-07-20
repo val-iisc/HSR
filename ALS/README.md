@@ -13,7 +13,11 @@ This can be achieved using [StyleSpace](https://github.com/betterze/StyleSpace) 
 
 - A sample image of this set should look like the one shown below:
 
-![alt text](../docs/als_sample.png)
+<div class="img">
+<p align="center">
+<img src='../docs/als_sample.png' align="center" width=800>
+</p>
+</div>
 
 - Run the following from within the aforementioned docker image. The script will generate a single pickle file containing necessary data for computing ALS:
 
