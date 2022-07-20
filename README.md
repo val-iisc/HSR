@@ -65,7 +65,8 @@ All other datasets can be downloaded from their repsective websites:
 python train_baseline.py --outdir ./models --data ../datasets/ffhq256x256.zip --cfg paper256 --mirror 1 --aug noaug --batch 16 --gpus 2 --kimg 500
 ```
 ```.bash
-python train_hsr.py --outdir ./models --data ../datasets/ffhq256x256.zip --cfg paper256 --mirror 1 --aug noaug --batch 16 --gpus 2 --resume ./models/<path to baseline model directory>/network-snapshot-000500.pkl --model-name DINO```
+python train_hsr.py --outdir ./models --data ../datasets/ffhq256x256.zip --cfg paper256 --mirror 1 --aug noaug --batch 16 --gpus 2 --resume ./models/<path to baseline model directory>/network-snapshot-000500.pkl --model-name DINO
+```
 
 ## References
 
