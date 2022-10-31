@@ -1,6 +1,6 @@
 # Hierarchical Semantic Regularization of Latent Spaces in StyleGANs
 
-### [Project Page](https://sites.google.com/view/hsr-eccv22/)
+[Project Page](https://sites.google.com/view/hsr-eccv22/)
 
 ## Requirements
 
@@ -68,15 +68,24 @@ python train_baseline.py --outdir ./models --data ../datasets/ffhq256x256.zip --
 python train_hsr.py --outdir ./models --data ../datasets/ffhq256x256.zip --cfg paper256 --mirror 1 --aug noaug --batch 16 --gpus 2 --resume ./models/<path to baseline model directory>/network-snapshot-000500.pkl --model-name DINO
 ```
 
-## References
+## Citation
 
 ```
 @InProceedings{karmali2022hierarchical,
-title={Hierarchical Semantic Regularization of Latent Spaces in StyleGANs},
-author={Karmali, Tejan and Parihar, Rishubh and Agrawal, Susmit and Rangwani, Harsh and Jampani, Varun, Singh, Maneesh and Babu, R. Venkatesh},
-booktitle={European Conference on Computer Vision},
-year={2022},
+author="Karmali, Tejan
+and Parihar, Rishubh
+and Agrawal, Susmit
+and Rangwani, Harsh
+and Jampani, Varun
+and Singh, Maneesh
+and Babu, R. Venkatesh",
+title="Hierarchical Semantic Regularization of Latent Spaces in StyleGANs",
+booktitle="Computer Vision -- ECCV 2022",
+year="2022",
+pages="443--459",
 }
+
+
 ```
 
 ## Acknowledgments
