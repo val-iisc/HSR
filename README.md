@@ -18,6 +18,8 @@ cd hsr
 bash docs/setup.sh
 ```
 
+## Inference
+
 **To generate images**: 
 
 
@@ -32,6 +34,10 @@ The above command generates 4 images using the provided seed values and saves it
 ```.bash
 python calc_metrics.py --network <path to network> --metrics ppl2_wend,fid50k_full,pr50k3_full --data ./datasets/ffhq256x256.zip
 ```
+
+**Pretrained Models**:
+We provide pretrained models for the folowing datasets, trained at 256x256 resolution.
+[FFHQ](https://huggingface.co/tejank10/HSR/resolve/main/ffhq256.pkl), [LSUN-Church](https://huggingface.co/tejank10/HSR/resolve/main/church256.pkl)
 
 ## Datasets
 
